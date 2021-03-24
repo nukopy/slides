@@ -1,0 +1,189 @@
+/* @theme my-style */
+
+/* これをしないと pdf 出力時に外枠に微妙な余白ができる TODO: PR 出す */
+body {
+  background-color: rgb(31, 33, 35);
+  font-size: 60px;
+}
+
+section {
+  /* layout */
+  width: 1920px;
+  height: 1080px;
+  margin: 0px;
+  padding: 1rem 4rem;
+  background-color: rgb(31, 33, 35);
+  /* background-image: url("./img/gradient-1761190.jpg"); */
+
+  /* text */
+  font-family: "Hiragino Kaku Gothic ProN";
+  font-size: 4rem;
+}
+
+/* footer - bottom right(styling page number) */
+section::after {
+  font-size: 2rem;
+  color: inherit;
+}
+
+/* -------------------- */
+/* title slide          */
+/* -------------------- */
+
+section.title {
+  /* layout */
+  text-align: left;
+  padding-left: 4rem;
+
+  /* 要素の中央寄せ（縦） */
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+
+  /* font, color */
+  background-color: rgb(31, 33, 35);
+  color: rgb(251, 253, 242);
+}
+
+section.title h1 {
+  font-size: 6rem;
+  padding: 0;
+  margin: 0;
+}
+
+section.title h2 {
+  font-size: 3rem;
+  padding: 0;
+  margin: 0;
+  padding-bottom: 1rem;
+}
+
+section.title h3 {
+  font-size: 2.5rem;
+  padding: 0;
+  margin: 0;
+}
+
+/* -------------------- */
+/* content slide        */
+/* -------------------- */
+
+section.content {
+  color: rgb(31, 33, 35);
+  background-color: rgb(251, 253, 242);
+  font-size: 3.5rem;
+}
+
+section.content h1 {
+  padding: 0;
+  padding-left: 1rem;
+  margin-top: 1.5rem;
+  margin-bottom: 1rem;
+  font-size: 4rem;
+  border-left: solid 10px #426ba6;
+}
+
+section.content h2 {
+  font-size: 3.5rem;
+  margin-bottom: 1.5rem;
+}
+
+section.content ul,
+ol {
+  margin: 0;
+}
+
+/* -------------------- */
+/* multi columns */
+/* -------------------- */
+
+div.twocols {
+  /* margin-top: px; */
+  column-count: 2;
+  /* border: 2px solid; */
+  font-size: 2.75rem;
+}
+
+div.twocols p:first-child,
+div.twocols h1:first-child,
+/* div.twocols h2:first-child, */
+div.twocols ul:first-child,
+div.twocols ul li:first-child,
+div.twocols ul li p:first-child {
+  margin-top: 0 !important;
+}
+
+div.twocols h2 {
+  margin: 0.5rem;
+  padding: 0;
+}
+
+div.twocols ul {
+  margin: 0;
+}
+
+div.twocols p {
+  margin-bottom: 1rem;
+}
+
+div.twocols p.break {
+  break-before: column;
+  margin-top: 0;
+}
+
+/* -------------------- */
+/* ids, classes
+/* -------------------- */
+
+img {
+  display: block;
+  text-align: center;
+  margin: 0 auto;
+  padding-bottom: 0;
+}
+
+#atcoder-x-twitter {
+  width: 70%;
+}
+
+#atcoder-hp {
+  width: 70%;
+}
+
+#atcoder-is {
+  height: 72.5%;
+}
+
+.below-image {
+  display: block;
+  text-align: center;
+  font-size: 2.75rem;
+}
+
+#timeline {
+  width: 70%;
+}
+
+#atcoder-stream {
+  width: 90%;
+}
+
+#stream {
+  width: 70%;
+}
+
+#others {
+  width: 65%;
+}
+
+#system-architecture-all {
+  width: 72.5%;
+}
+
+#system-architecture-detail {
+  width: 85%;
+}
+
+#system-architecture-pubsub {
+  width: 90%;
+}
