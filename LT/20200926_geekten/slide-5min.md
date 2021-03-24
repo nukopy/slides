@@ -31,6 +31,13 @@ _paginate: false
 class: content
 -->
 
+<style scoped>
+  ol {
+    /* font-size: 3rem; */
+    padding-left: 4rem;
+  }
+</style>
+
 # トーク内容
 
 1. プロフィール
@@ -433,10 +440,6 @@ AtCoder Stream は、AtCoder と Twitter の連携アプリであり、AtCoder �
 
 ---
 
-<style scoped>
-  
-</style>
-
 # 技術スタック
 
 <div class="twocols">
@@ -492,7 +495,7 @@ _paginate: false
 # 終わりに
 
 - URL
-  - AtCoder Stream: https://atcoder-stream.com
+  - AtCoder Stream: [atcoder-stream.com](https://atcoder-stream.com)
 - ソースコード
   - GitHub 上にソースコードを公開しています。セキュリティの都合等で非公開にする場合もあります。
   - [github.com/nukopy/AtCoderStream](https://github.com/nukopy/AtCoderStream)
