@@ -498,15 +498,3 @@ _paginate: false
   - [github.com/nukopy/AtCoderStream](https://github.com/nukopy/AtCoderStream)
 
 ## AtCoder Stream を開発するきっかけになった AtCoder、AtCoder Problems の開発者の方々や、Twitter で度々お世話になっている競プロ er の皆様にこの場をお借りしてお礼申し上げます
-
-<!--
-30 sec
-
-- 申し訳ないのですが、リリースまでもうしばらくお待ちください。10 ~ 11 月中を予定しています。
-- Twitter でハッシュタグを付けてツイートしていただけると情報が拾いやすいのでありがたいです。
-- また、GitHub 上でソースコードを公開しているので、かなり汚いコードですが良かったら覗いてみてください
-
-最後になりますが、AtCoder Stream を開発するきっかけになった各種サービス、また Twitter でお世話になっている競プロ er の方々にこの場をお借りしてお礼申し上げます。
-
-発表は以上となります。ありがとうございました。
--->
